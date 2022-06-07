@@ -90,3 +90,17 @@ console.log(myArr);
 // myArr3.sort();
 // myArr3.length = 0;
 // console.log(myArr3[90]);
+
+//manipulating an array
+const theList = ['Laurence', 'Svekis', true, 35, null, undefined, {test: 'one', score: 55}, ['one', 'two']];
+theList.pop();
+theList.shift();
+theList.slice(0, 0, 'FIRST');
+theList.slice(2, 14, "MIDDLE", "hello world", "LAST");
+
+console.log(theList);
+
+//company product catalog
+
+
+
