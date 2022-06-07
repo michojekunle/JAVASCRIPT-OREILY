@@ -14,7 +14,6 @@ variableTypeTest2 = typeof(testVariable);
 console.log(variableTypeTest1);
 console.log(variableTypeTest2);
 
-
 let str = "Hello";
 let nr = 7;
 let bigNr = 12345678901234n;
@@ -79,3 +78,15 @@ let statement = "I Can Code JavaScript";
 console.log(`My name is ${myName}`);
 console.log(`I am ${myAge} years old.`);
 console.log(statement, Boolean(statement));
+
+
+myArr = [2, 8, 9, 0, 80, 90, 89, 29];
+
+myArr.splice(1, 1, 4);
+
+console.log(myArr);
+
+// const myArr3 = [3,6,8,9,3,55,553,434];
+// myArr3.sort();
+// myArr3.length = 0;
+// console.log(myArr3[90]);
