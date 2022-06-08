@@ -93,14 +93,45 @@ console.log(myArr);
 
 //manipulating an array
 const theList = ['Laurence', 'Svekis', true, 35, null, undefined, {test: 'one', score: 55}, ['one', 'two']];
-theList.pop();
+
 theList.shift();
-theList.slice(0, 0, 'FIRST');
-theList.slice(2, 14, "MIDDLE", "hello world", "LAST");
+theList.unshift('FIRST');
+theList.splice(2, 8, 'MIDDLE','hello world', 'LAST');
 
 console.log(theList);
 
 //company product catalog
+companyStoreItems = [];
+
+let item1 = {
+    name: "biscuit",
+    model: "snack",
+    cost: 20,
+    quantity: 8
+};
+
+
+let item2 = {
+    name: "cheese",
+    model: "snack",
+    cost: 70,
+    quantity: 6
+};
+
+let item3 = {
+    name: "bicycles",
+    model: "vehicle",
+    cost: 20000,
+    quantity: 9
+};
+
+companyStoreItems.splice(0, 0, item1, item2, item3);
+
+console.log(companyStoreItems);
+
+var thirdItemQuality = companyStoreItems[2].quantity;
+
+console.log(thirdItemQuality);
 
 
 
