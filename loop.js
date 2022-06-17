@@ -1,1 +1,3 @@
-//
+//while loop 
+//@ts-check
+ 
